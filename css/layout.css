@@ -1,0 +1,53 @@
+/* LAYOUT - MOBILE */
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* The key difference between mobile and desktop layout will be the use of whitespace between the main and the nav/aside */
+    grid-template-areas:
+        "header header ."
+        "main main nav"
+        "main main ."
+        "main main aside"
+        "footer footer footer";
+    margin-top: 5%;
+    padding: 3%;
+}
+
+header{
+    grid-area: header;
+    margin-bottom: 5%;
+}
+
+main{
+    grid-area: main;
+}
+
+nav{
+    grid-area: nav;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+    margin-top: 5%;
+}
+
+img{
+    width: 100%;
+}
+
+@media (min-width:1025px) {
+    body{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+                "header header header header header"
+                "main   main   main   ...... nav"
+                "main   main   main   ...... ."
+                "main   main   main   ...... aside"
+                "footer footer footer footer footer";
+    }
+}
