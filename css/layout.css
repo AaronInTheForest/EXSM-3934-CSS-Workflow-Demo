@@ -5,10 +5,10 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     /* The key difference between mobile and desktop layout will be the use of whitespace between the main and the nav/aside */
     grid-template-areas:
-        "header header ."
-        "main main nav"
-        "main main ."
-        "main main aside"
+        "header header header"
+        "main   main   nav"
+        "main   main   ."
+        "main   main   aside"
         "footer footer footer";
     margin-top: 5%;
     padding: 3%;
