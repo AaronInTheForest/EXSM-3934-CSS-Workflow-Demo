@@ -42,12 +42,24 @@ img{
 
 @media (min-width:1025px) {
     body{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr .25fr 1fr;
             grid-template-areas:
+            /* You can use extra spaces and periods to control the template's layout in the editor and make use of multicursor and vertical selection. Handy!! */
                 "header header header header header"
                 "main   main   main   ...... nav"
                 "main   main   main   ...... ."
                 "main   main   main   ...... aside"
                 "footer footer footer footer footer";
+    }
+
+    .fig-container{
+        display:flex;
+        width:100%;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+
+    .fig-container figure{
+        width: 30%;
     }
 }

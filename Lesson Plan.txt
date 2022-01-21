@@ -5,7 +5,7 @@ START
 	Agenda:
 #		Download starter repo
 #		Project setup
-		Layout and Mobile-first responsiveness
+#		Layout and Mobile-first responsiveness
 		Backgrounds and Typography
 		Visual elements, special cases, details, and one-offs.
 		Testing, testing, testing
@@ -27,12 +27,11 @@ LAYOUT AND MOBILE FIRST RESPONSIVENESS
 	DESKTOP LAYOUT
 #	Redo template-areas
 #	Redo column measurements
-	Wrap figures in divs so we can flex
-	Set flex-wrap, justify-content, and job width (leave school width and portfolio width)
-	On .job and .piece set width to 45% and 30% to get jobs and portfolio pieces into their own mini-grids.
+#	Wrap groups of multiple figures in <div class="fig-container"> so we can flex. Individual ones can be sized to fit later
+#	Set flex-wrap, justify-content, and <div class="fig-container"> width (desktop only - mobile can't fit side-by-side images well enough)
+#	On .fig-container figures set width to 30% to get pieces into their own mini-grids.
 BACKGROUNDS
 	Set html bg color to off-white (to have easier contrast with the off-black we're going to use for the text)
-	Add reset script (should've done this waaaay earlier)
 	Move portfolio pieces around because the reset made me realize there's a better layout possible.
 TYPOGRAPHY
 	Create new typography script with clown colours to see if it's hooked up right.
