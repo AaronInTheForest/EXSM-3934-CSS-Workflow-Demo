@@ -52,7 +52,7 @@ img{
                 "footer footer footer footer footer";
     }
 
-    .fig-container{
+    .fig-container, .two-col-text{
         display:flex;
         width:100%;
         flex-wrap: wrap;
@@ -61,5 +61,13 @@ img{
 
     .fig-container figure{
         width: 30%;
+    }
+
+    .two-col-text p{
+        width: 45%;
+    }
+
+    p{
+        margin-top: 2.5%;
     }
 }

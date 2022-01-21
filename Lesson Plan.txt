@@ -31,8 +31,7 @@ LAYOUT AND MOBILE FIRST RESPONSIVENESS
 #	Set flex-wrap, justify-content, and <div class="fig-container"> width (desktop only - mobile can't fit side-by-side images well enough)
 #	On .fig-container figures set width to 30% to get pieces into their own mini-grids.
 BACKGROUNDS
-	Set html bg color to off-white (to have easier contrast with the off-black we're going to use for the text)
-	Move portfolio pieces around because the reset made me realize there's a better layout possible.
+#	Set html bg color to something warm and article bg color to off-white (to have easier contrast with the off-black we're going to use for the text)
 TYPOGRAPHY
 	Create new typography script with clown colours to see if it's hooked up right.
 	Remove the clown colours and pick something nice. I picked a warm off-black and a lighter version of the same.
