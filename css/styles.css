@@ -3,8 +3,7 @@ html{
 }
 
 header{
-    /* background-image: url("../images/751px-VanGogh-starry_night_ballance1.jpg"); */
-    background-color: red;
+    background-image: url("../images/751px-VanGogh-starry_night_ballance1.jpg");
     background-repeat: no-repeat;
     background-size: 115%;
     background-position: 70% 5%;
