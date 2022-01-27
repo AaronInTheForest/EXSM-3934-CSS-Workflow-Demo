@@ -33,26 +33,24 @@ LAYOUT AND MOBILE FIRST RESPONSIVENESS
 BACKGROUNDS
 #	Set html bg color to something warm and article bg color to off-white (to have easier contrast with the off-black we're going to use for the text)
 TYPOGRAPHY
-	Create new typography script with clown colours to see if it's hooked up right.
-	Remove the clown colours and pick something nice. I picked a warm off-black and a lighter version of the same.
-	I do a lot of back and forth with typography because I find it to be finicky, 
-	but I still try to work from most-general to most-specific. 
-	In this case I started by setting global styles, 
-	then working down through the headings in order of their hierarchy. 
-	I left off with the "Now Teaching!" text which was a special one-off case. 
-	I also lightened and shrunk the titles of the portfolio pieces so that the text wouldn't distract from the images.
-	I try to make sure I pick good font-faces based on advice from online 
-	(pairing fonts is like pairing wines and cheeses)
-	ADD THE CONTENT FOR THE SOCIAL LINKS
-	The footer needed a bit more whitespace.
-	Had to style the links seperately from the rest of the text. 
-	(I chose to use the underlines to highlight links on hover)
+#	Create new typography script with clown colours to see if it's hooked up right.
+#	Remove the clown colours and pick something nice. https://color.adobe.com/create/image and used a painting to get a nice pallet
+#	I do a lot of back and forth with typography because I find it to be finicky, 
+#	but I still try to work from most-general to most-specific starting with body paragraph text then working up to headings.
+#	For the body text I grabbed Open sans condensed because I felt the tightly packed letters felt frantic like Van Gogh's paint stroke style
+#	Increased size for headers and gave whitespace to h2
+#	Chose new font for h1 and h2, changed h1 colour and added a bg shadow layer to give better visual contrast.
+#	Added margin-left on aside and nav for mobile version. It's not good to have two columns but I wanted to show it as an option.
+#	Changed colours for links and hover state of links.	
+#	Switched to DESKTOP mode
+#		Increased body font-size to 1.2em based on the character count
+#		Increased the font size by a lot - 12em total
+#		Adjusted the tag line after the header to make it less noticeable - .75 em with no margins
+# Went back to the layout and added some whitespace around ul, and indented the not-first-child of ul so it looks more like a hierarchy of headings.
 VISUAL ELEMENTS, SPECIAL CASES, DETAILS, AND ONE-OFFS
-	This is the time to start getting picky with the little things. 
-	This part is where most people seem to start on, 
+#	This is the time to start getting picky with the little things. 
+#	This part is where most people seem to start on, 
 	but I think you will find it much easier now that you have the broad strokes.
+#	Removed whitespace from figcaption p and added it to the figure to group things more tightly
 
-	Made the photo a circle and brought the label up to overlap the photo.
-	Added some padding to the aside (mobile only)
-	Added height to .piece h2 because I wanted all of the pictures in-line w/ each other.
-	
+BREAK TIME

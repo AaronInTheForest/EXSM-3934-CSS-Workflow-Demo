@@ -39,6 +39,22 @@ footer{
 img{
     width: 100%;
 }
+nav, aside{
+    margin-left: 5%;
+}
+
+nav ul :not(:first-child){
+    margin-left: 5%;
+}
+
+figure{
+    margin-top: 15%;
+}
+
+figcaption p{
+    margin: 0;
+}
+
 
 @media (min-width:1025px) {
     body{
