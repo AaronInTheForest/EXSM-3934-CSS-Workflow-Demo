@@ -6,7 +6,7 @@ START
 #		Download starter repo
 #		Project setup
 #		Layout and Mobile-first responsiveness
-		Backgrounds and Typography
+#		Backgrounds and Typography
 		Visual elements, special cases, details, and one-offs.
 		Testing, testing, testing
 PROJECT SETUP
