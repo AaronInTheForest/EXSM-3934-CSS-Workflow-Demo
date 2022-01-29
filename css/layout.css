@@ -1,10 +1,11 @@
-/* LAYOUT - MOBILE */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+/* MOBILE LAYOUT */
 
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* The key difference between mobile and desktop layout will be the use of whitespace between the main and the nav/aside */
-    grid-template-areas:
+    grid-template-areas: 
         "header header header"
         "main   main   nav"
         "main   main   ."
@@ -16,63 +17,53 @@ body{
 
 header{
     grid-area: header;
-    margin-bottom: 5%;
+    /* background-color: red; */
 }
-
 main{
     grid-area: main;
+    /* background-color: blue; */
 }
-
 nav{
     grid-area: nav;
+    /* background-color: green; */
 }
-
 aside{
     grid-area: aside;
+    /* background-color: yellow; */
 }
-
 footer{
     grid-area: footer;
-    margin-top: 5%;
+    /* background-color: purple; */
 }
 
 img{
     width: 100%;
 }
-nav, aside{
-    margin-left: 5%;
-}
-
-nav ul :not(:first-child){
-    margin-left: 5%;
-}
 
 figure{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
-figcaption p{
-    margin: 0;
+nav, aside, nav ul :not(:first-child){
+    margin-left: 5%;
 }
 
-
-@media (min-width:1025px) {
+@media (min-width:1025px){
     body{
         grid-template-columns: 1fr 1fr 1fr .25fr 1fr;
-            grid-template-areas:
-            /* You can use extra spaces and periods to control the template's layout in the editor and make use of multicursor and vertical selection. Handy!! */
-                "header header header header header"
-                "main   main   main   ...... nav"
-                "main   main   main   ...... ."
-                "main   main   main   ...... aside"
-                "footer footer footer footer footer";
+        grid-template-areas: 
+            "header header header header header"
+            "main   main   main   ...... nav"
+            "main   main   main   ...... ."
+            "main   main   main   ...... aside"
+            "footer footer footer footer footer";
     }
 
     .fig-container, .two-col-text{
-        display:flex;
-        width:100%;
+        /* background-color: red; */
+        display: flex;
         flex-wrap: wrap;
-        justify-content:space-evenly;
+        justify-content: space-between;
     }
 
     .fig-container figure{
@@ -80,7 +71,7 @@ figcaption p{
     }
 
     .two-col-text p{
-        width: 45%;
+        width: 48%;
     }
 
     p{
