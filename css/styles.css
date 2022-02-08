@@ -1,5 +1,5 @@
 html{
-    background-color: #DCF2F0;
+    background-color: var(--off-white);
 }
 
 header{
@@ -9,11 +9,18 @@ header{
     background-position: 70% 5%;
     width: 100%;
     height: 15vh;
+    
+}
+
+nav{
+    margin-top: 5%;
+    padding: 5%;
+    border: var(--van-gogh-brown) 10px solid;
 }
 
 aside figure img{
     border-radius: 50%;
-    border: #592202 dashed 3px;
+    border: var(--van-gogh-brown) dashed 3px;
 }
 
 @media (min-width:1025px){

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 
 body{
-    color: #592202;
+    color: var(--van-gogh-brown);
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 1.6;
     word-spacing: .1em;
@@ -28,10 +28,10 @@ h2{
 h1{
     font-size: 4em;
     text-align: center;
-    color: #D9B64E;
+    color: var(--van-gogh-pale-yellow);
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0, .6);
+    background-color: var(--transparent-black);
 }
 
 h1, h2, aside h2{
@@ -51,11 +51,11 @@ figcaption p, header p{
 }
 
 a{
-    color: #035372;
+    color: var(--van-gogh-blue);
 }
 
 a:hover{
-    color: #D9933D;
+    color: var(--van-gogh-gold);
 }
 
 @media (min-width:1025px){
