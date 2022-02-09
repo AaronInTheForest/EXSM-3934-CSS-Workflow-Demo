@@ -2,14 +2,16 @@
 
 body{
     color: var(--van-gogh-brown);
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', 'Helvetica', 'Arial', sans-serif;
     line-height: 1.6;
     word-spacing: .1em;
+    letter-spacing: .07em;
     font-size: 16px;
 }
 
 strong{
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 em{
